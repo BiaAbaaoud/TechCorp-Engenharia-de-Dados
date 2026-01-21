@@ -39,4 +39,14 @@ Reduzir custos de armazenamento e processamento através da migração de dados 
 6.  **Como atualizar o banco após novos logs?** Basta rodar o script de migração novamente para atualizar o backup Parquet com os dados mais recentes.
 
 ---
+
+### 🚀 Como Executar o Projeto na Prática
+
+Siga esta ordem para ver o fluxo de Engenharia de Dados acontecer:
+
+1. **Geração e Ingestão:**
+   Execute o comando abaixo para criar o banco de dados e o backup inicial:
+   ```bash
+   python migracao_dados_parquet.py
+---
 **Desenvolvedora:** BiaAbaaoud
